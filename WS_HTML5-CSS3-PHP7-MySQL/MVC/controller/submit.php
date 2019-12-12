@@ -1,0 +1,1 @@
+<p> Merci <?php echo $_POST['nom']; ?>, votre commentaire a été transmit !</p>
