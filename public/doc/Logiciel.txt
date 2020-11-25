@@ -1,0 +1,8 @@
+Eclipse
+FileZilla
+GitHub
+IntelliJ
+Notepad++
+Qt Creator
+StarUML
+VS Code

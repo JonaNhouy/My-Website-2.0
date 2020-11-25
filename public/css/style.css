@@ -1,0 +1,121 @@
+html{
+	background: rgb(63, 62, 62);
+}
+body{
+	font: 1.4rem Tahoma; /*Met la présentation sur cette police*/
+	color: white;
+	margin:0;
+}
+header{
+	color: rgba(85, 0, 0);
+	font-size: 2.8rem;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	text-align: center;
+	/* margin: 5% auto;
+	background-color: rgba(85, 0, 0, 0.5);
+	width: 350px; */
+	/* border-style: double;
+	border-width: 15px;
+	border-color: rgba(85, 0, 0, 0.7); */
+}
+
+h1, h2{
+	color: red;
+	margin: 1%;
+}
+#Links ul li{
+	color: green;
+}
+ul li a{
+	text-decoration: none;
+	
+}
+ul li a, ul li a:visited, ul li br a:visited, a:visited{
+	color: white;
+}
+ul li a:hover{
+	color: red;
+}
+
+/*Onglet*/
+nav{
+	padding-bottom: 40px;
+	background: #feb236; 
+}
+.LineTab{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	/*Enlève les puces (points devant les mots pour classer la liste)*/
+}
+.CellTab{
+	margin-left: 5px;	/* Espace entre chaque Onglet*/
+	float: left;	/*Pour IE*/
+}
+.LineTab .CellTab a{
+	display: block;
+	float: left;
+	width: 150px;
+	background-color:#feb236;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	border-style: solid;
+	border-color: #feb236;
+	font-size: 20px;
+}
+.LineTab .CellTab a:hover{
+	background-color: rgb(27, 15, 200);
+}
+/*Fin onglet*/
+
+#HeaderSite{
+	display: flex;
+	margin: 1%;
+}
+#Logo{
+	width: 254px;
+	height: 254px;
+	border-radius: 50%;
+	padding-top: 5px;
+	left: 0;
+}
+#Presentation, #Links, #Formulaire{
+	margin: 1%;
+}
+#Presentation table tr td, #Presentation table tr th{
+	text-align: center;
+	padding: 5px;
+}
+/* #Links ul li{
+	margin: 1.4rem;
+} */
+form{
+	margin-left: 1%;
+	width: min-content;
+	padding: 1%;
+	border: rgba(85, 0, 0) 11px double;
+}
+#nom, #prenom{
+	margin: 1%;
+}
+
+/*Footer*/
+footer{
+	margin: 1%;
+	border-radius: 1.4rem;
+	padding: 3%;
+	background: rgb(29, 29, 29);
+}
+footer a{
+	color: rgb(11, 192, 247);
+}
+/* .Reseaux{
+	width: 50px;
+	height: 50px;
+} */
+.Ancrage{
+	position: absolute;
+	right: 2%;
+}
+/*Fin footer*/
