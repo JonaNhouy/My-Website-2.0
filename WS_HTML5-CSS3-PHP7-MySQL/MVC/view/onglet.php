@@ -1,13 +1,10 @@
 <nav>
-			<ul class="LineTab">
-				<li class="CellTab"><a href="/accueil/presentation">Jonathan N.</a></li>
-			
-				<li class="CellTab"><a href="/accueil/downloads">Téléchargements</a></li>
-			
-				<li class="CellTab"><a href="/accueil/links">Liens</a></li>
-			
-				<li class="CellTab"><a href="/accueil/form">Formulaire</a></li>
-			</ul>
-		</nav>
-
-<p id="Date"><?php echo date('d/m/Y h:i:s'); ?></p>
+	<ul class="LineTab">
+		<li class="CellTab"><a href="index.html">Jonathan N.</a></li>
+		<li class="CellTab"><a href="downloads.html">Téléchargements</a></li>
+		<li class="CellTab"><a href="links.html">Liens</a></li>
+		<li class="CellTab"><a href="form.html">Formulaire</a></li>
+		<li class="CellTab"><a href="ideas.html">Idées</a></li>
+		<li class="CellTab"><a href="about.html">A propos</a></li>
+	</ul>
+</nav>
